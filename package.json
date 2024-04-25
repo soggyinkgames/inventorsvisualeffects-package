@@ -1,0 +1,26 @@
+{
+    "name": "com.soggyinkgames.inventorsvisualeffects",
+    "version": "1.0.0",
+    "displayName": "Inventors Visual Effects",
+    "description": "a package of visual effects built by soggy ink games inspired by various inventors",
+    "unity": "2022.1",
+    "dependencies": {
+        "com.unity.visualeffectgraph": "13.1.8",
+        "com.unity.render-pipelines.universal": "13.1.8"
+    },
+    "documentationUrl": "https://example.com/",
+    "changelogUrl": "https://example.com/changelog.html",
+    "licensesUrl": "https://example.com/licensing.html",
+    "author": {
+        "name": "SOGGY INK GAMES",
+        "email": "soggyinkgames@gmail.com",
+        "url": "https://www.soggyinkgames.com"
+    },
+    "samples": [
+        {
+            "displayName": "Sample Soggy Scene",
+            "description": "a package of visual effects built by soggy ink games inspired by various inventors",
+            "path": "Samples~/SampleSoggyScene"
+        }
+    ]
+}
