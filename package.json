@@ -1,12 +1,13 @@
 {
   "name": "com.soggyinkgames.inventorsvisualeffects",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Inventors Visual Effects",
   "description": "a package of visual effects built by soggy ink games inspired by various inventors",
   "unity": "2022.1",
   "dependencies": {
     "com.unity.visualeffectgraph": "13.1.8",
-    "com.unity.render-pipelines.universal": "13.1.8"
+    "com.unity.render-pipelines.universal": "13.1.8",
+    "com.unity.textmeshpro": "3.0.6"
   },
   "documentationUrl": "https://example.com/",
   "changelogUrl": "https://example.com/changelog.html",
