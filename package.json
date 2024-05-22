@@ -1,6 +1,6 @@
 {
-  "name": "com.soggyinkgames.inventorsvisualeffects",
-  "version": "1.0.2",
+  "name": "com.soggyinkgames.inventorsvisualeffects-package",
+  "version": "1.0.3",
   "displayName": "Inventors Visual Effects",
   "description": "a package of visual effects built by soggy ink games inspired by various inventors",
   "unity": "2022.1",
