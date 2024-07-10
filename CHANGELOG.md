@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/soggyinkgames/package-inventorsvisualeffects/compare/v1.1.0...v1.1.1) (2024-07-10)
+
+
+### Bug Fixes
+
+* cleanup unused graphs ([d4338c6](https://github.com/soggyinkgames/package-inventorsvisualeffects/commit/d4338c6fc287c244a6c2b819824db71b96888d92))
+* **SW-23:** telkes vfx should only present currently used graphs ([952c8b5](https://github.com/soggyinkgames/package-inventorsvisualeffects/commit/952c8b5bf5d56aa9096c7c0acc4f857026dccde5))
+
 # [1.1.0](https://github.com/soggyinkgames/package-inventorsvisualeffects/compare/v1.0.1...v1.1.0) (2024-07-10)
 
 
