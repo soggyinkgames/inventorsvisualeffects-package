@@ -30,9 +30,9 @@ MonoBehaviour:
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: 422
+    x: 83
     y: -402
-    width: 2005
+    width: 2344
     height: 2054
 --- !u!114 &114350483966674976
 MonoBehaviour:
@@ -71,7 +71,8 @@ MonoBehaviour:
   m_ParameterInfo:
   - name: LeftHandPosition
     path: 
-    tooltip: 
+    tooltip: changes color of visual effect using distance to the position of the
+      other hand
     space: 0
     spaceable: 1
     sheetType: 
@@ -95,7 +96,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":1.0,"y":0.0,"z":0.0}'
+      m_SerializableObject: '{"x":7.0,"y":7.0,"z":9.0}'
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -134,7 +135,8 @@ MonoBehaviour:
     descendantCount: 0
   - name: RightHandPosition
     path: 
-    tooltip: 
+    tooltip: changes color of visual effect using distance to the position of the
+      other hand
     space: 0
     spaceable: 1
     sheetType: 
@@ -158,7 +160,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":0.0,"y":2.0,"z":0.0}'
+      m_SerializableObject: '{"x":9.0,"y":8.0,"z":1.0}'
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -197,7 +199,8 @@ MonoBehaviour:
     descendantCount: 0
   - name: Intensity
     path: Intensity
-    tooltip: 
+    tooltip: the length of each line particle, so the higher the number the more
+      intense the effect looks
     space: -1
     spaceable: 0
     sheetType: m_Float
@@ -213,7 +216,7 @@ MonoBehaviour:
     descendantCount: 0
   - name: SDF
     path: SDF
-    tooltip: SDF
+    tooltip: change the SDF here to control the shape of the effect
     space: -1
     spaceable: 0
     sheetType: m_NamedObject
@@ -1642,6 +1645,7 @@ MonoBehaviour:
   m_Direction: 1
   m_LinkedSlots:
   - {fileID: 8926484042661615112}
+  - {fileID: 8926484042661614945}
 --- !u!114 &8926484042661614734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1777,7 +1781,8 @@ MonoBehaviour:
   m_IsOutput: 0
   m_EnumValues: []
   m_ValueFilter: 0
-  m_Tooltip: 
+  m_Tooltip: changes color of visual effect using distance to the position of the
+    other hand
   m_Nodes:
   - m_Id: 0
     linkedSlots:
@@ -1815,7 +1820,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Transform, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":1.0,"y":0.0,"z":0.0},"angles":{"x":0.0,"y":0.0,"z":0.0},"scale":{"x":0.0,"y":0.0,"z":0.0}}'
+      m_SerializableObject: '{"position":{"x":7.0,"y":7.0,"z":9.0},"angles":{"x":0.0,"y":0.0,"z":0.0},"scale":{"x":0.0,"y":0.0,"z":0.0}}'
     m_Space: 0
   m_Property:
     name: o
@@ -2266,7 +2271,8 @@ MonoBehaviour:
   m_IsOutput: 0
   m_EnumValues: []
   m_ValueFilter: 0
-  m_Tooltip: 
+  m_Tooltip: changes color of visual effect using distance to the position of the
+    other hand
   m_Nodes:
   - m_Id: 0
     linkedSlots:
@@ -2304,7 +2310,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Transform, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":0.0,"y":2.0,"z":0.0},"angles":{"x":0.0,"y":0.0,"z":0.0},"scale":{"x":0.0,"y":0.0,"z":0.0}}'
+      m_SerializableObject: '{"position":{"x":9.0,"y":8.0,"z":1.0},"angles":{"x":0.0,"y":0.0,"z":0.0},"scale":{"x":0.0,"y":0.0,"z":0.0}}'
     m_Space: 0
   m_Property:
     name: o
@@ -2755,7 +2761,8 @@ MonoBehaviour:
   m_IsOutput: 0
   m_EnumValues: []
   m_ValueFilter: 0
-  m_Tooltip: 
+  m_Tooltip: the length of each line particle, so the higher the number the more
+    intense the effect looks
   m_Nodes:
   - m_Id: 0
     linkedSlots:
@@ -3401,7 +3408,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
   m_Direction: 0
   m_LinkedSlots:
-  - {fileID: 8926484042661615116}
+  - {fileID: 8926484042661614733}
 --- !u!114 &8926484042661614946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5412,7 +5419,7 @@ MonoBehaviour:
   m_IsOutput: 0
   m_EnumValues: []
   m_ValueFilter: 0
-  m_Tooltip: SDF
+  m_Tooltip: change the SDF here to control the shape of the effect
   m_Nodes:
   - m_Id: 0
     linkedSlots:
@@ -6177,8 +6184,7 @@ MonoBehaviour:
       m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
   m_Direction: 1
-  m_LinkedSlots:
-  - {fileID: 8926484042661614945}
+  m_LinkedSlots: []
 --- !u!114 &8926484042661615117
 MonoBehaviour:
   m_ObjectHideFlags: 0
