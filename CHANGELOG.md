@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/soggyinkgames/package-inventorsvisualeffects/compare/v1.1.3...v1.2.0) (2024-07-12)
+
+
+### Bug Fixes
+
+* update scene with new valerie effect ([f43b2bf](https://github.com/soggyinkgames/package-inventorsvisualeffects/commit/f43b2bfbd3c2951cc02b2d4ed5abfc6343dd03e0))
+
+
+### Features
+
+* **SW-27:** build and add new vfx inspired by Valerie Thomas ([1a04079](https://github.com/soggyinkgames/package-inventorsvisualeffects/commit/1a04079dec6fd2d028d07b2d4486072161892662))
+* **SW-27:** build Valerie Thomas visual effect ([3027463](https://github.com/soggyinkgames/package-inventorsvisualeffects/commit/3027463ffdb667ab0a140f3d5784adfa7baca736))
+
 ## [1.1.3](https://github.com/soggyinkgames/package-inventorsvisualeffects/compare/v1.1.2...v1.1.3) (2024-07-12)
 
 
