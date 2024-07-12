@@ -1,3 +1,12 @@
+## [1.1.3](https://github.com/soggyinkgames/package-inventorsvisualeffects/compare/v1.1.2...v1.1.3) (2024-07-12)
+
+
+### Bug Fixes
+
+* add tooltips to all exposed variables ([0d1b8e9](https://github.com/soggyinkgames/package-inventorsvisualeffects/commit/0d1b8e9ca9dcb46a77bfaf4969a8b0ceaedb7a33))
+* change the exposed variable names and default values ([6b1ca64](https://github.com/soggyinkgames/package-inventorsvisualeffects/commit/6b1ca644bf187bf0b1a6d40412ebaa3684afa20a))
+* **SW-25:** wu should only present curently exposed variables matching documentation ([51fd3ef](https://github.com/soggyinkgames/package-inventorsvisualeffects/commit/51fd3ef1383d05de98082663ea72472b934b89f6))
+
 ## [1.1.2](https://github.com/soggyinkgames/package-inventorsvisualeffects/compare/v1.1.1...v1.1.2) (2024-07-12)
 
 
